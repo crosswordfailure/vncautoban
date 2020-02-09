@@ -11,4 +11,4 @@ I wrote this and tested using PowerShell 6, if you aren't using it already I sug
 
 Future thought is crowd sourcing - having the script send its new hits to the net and use that data to have the scripts download popular blocks from other instances of it.
 
-Please let me know if you use it so I know if enough people are to justify future work, and also to then notify who uses it should I add that.
+Please let me know if you use it so I know if enough people are to justify future work, and also to then notify who uses it should I add that. You can reach me with this same name on reddit.
