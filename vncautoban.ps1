@@ -17,7 +17,7 @@ $filterhashtable = @{
     StartTime = $time
 }
 
-$events = Get-WinEvent -FilterHashtable $filterhashtable -MaxEvents 40
+$events = Get-WinEvent -FilterHashtable $filterhashtable
 $ips = @()
 $regex = '\b\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\b'
 foreach ($event in $events)
