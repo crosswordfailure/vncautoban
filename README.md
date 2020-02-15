@@ -14,4 +14,4 @@ Future thought is crowd sourcing - having the script send its new hits to the ne
 Please let me know if you use it so I know if enough people are to justify future work, and also to then notify who uses it should I add that. You can reach me with this same name on reddit.
 
 2.15.2020 update-
-I've been running mine where it autobans on first failure attempt ($freak.count -ge 1) because I notice that there are many single attempts. I also saw where the rule was getting over 1000 entries, so I put logic both to create the first firewall rule, but also create a new one when a rule has 512 entries and timestamp the existing rule by renaming it.
+I've been running mine where it autobans on first failure attempt ($freak.count -ge 1) because I notice that there are many single attempts. I've left the github copy at -ge 2, as you do have to be careful with -ge1 if you yourself fail once. I also saw where the rule was getting over 1000 entries, so I put logic both to create the first firewall rule, but also create a new one when a rule has 512 entries and timestamp the existing rule by renaming it.
